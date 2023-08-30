@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Passion+One:wght@700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Sriracha', cursive;
+    --font3: 'Passion One', cursive;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+
+    min-width: 80vw;
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 2em;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.5em;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    background-color: #ffffff;
+    text-align: left;
+    font-family: 'Sriracha', cursive;
+}
+main p{
+    padding-bottom: 2em;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--font2);
+    font-size: 3.5vw;
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.354);
+    border-radius: 5px;
+}
+
+section.normal{
+  background-color: white;
+  color: black;
+
+}
+
+section.imagem{
+    padding: 10px;
+    background-color: rgba(59, 58, 58, 0.184);
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: right 
+    center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.539);
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+#background2{
+    background-color: rgba(59, 58, 58, 0.184);
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+
+}
+
+footer > p{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+   
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
